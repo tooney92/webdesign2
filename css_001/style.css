@@ -1,0 +1,80 @@
+h2{
+    background-color: red;
+    justify-content: center;
+    text-align: center;
+}
+
+body{
+    /* background-image: url(hero.jpg); no-repeat center fixed ; */
+    /* background-color: #990505; */
+    
+}
+
+.navv{
+    display: flex;
+    
+}
+
+.flex-container{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    list-style: none;
+    background-color: #990505;
+    margin: 10px;
+    cursor: grab;
+    /* flex-direction: column-reverse; */
+}
+.flex-start{
+    justify-content: flex-start;
+}
+
+.flex-end { 
+    justify-content: flex-end; 
+} 
+.flex-end li{ 
+    background-color: gold;
+} 
+
+.center { 
+    justify-content: center; 
+  } 
+.center li { 
+    background-color: coral; 
+  } 
+
+.space-between{
+    justify-content: space-between;
+}
+.space-between li {
+    background-color: darkkhaki;
+}
+
+.space-around{
+    justify-content: space-around;
+}
+.space-around li{
+    background-color: deeppink;
+}
+.space-evenly{
+    justify-content: space-evenly;
+}
+.space-evenly li{
+    background-color: rgb(20, 208, 255);
+}
+
+
+
+.flex-item{
+    padding: 10px;
+    width: 60px;
+    height: 50px;
+    margin: 5px;
+    text-align: center;
+    background-color: blueviolet;
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+    line-height: 50px;
+}
+
